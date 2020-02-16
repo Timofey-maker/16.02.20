@@ -1,0 +1,51 @@
+.title {
+    text-align: center;
+}
+
+.blockImgScale {
+    height: 269px;
+    width: 280px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 19px;
+}
+
+.blockImgScaleItem {
+    position: absolute;
+    left: -139px;
+    width: 494px;
+    height: 274px;
+}
+
+.blockImg {
+    margin: 0 auto;
+    margin-top: 19px;
+    height: 271px;
+    width: 282px;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .imagesWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .blockImgScale {
+        /* height: 390px;
+        width: 350px; */
+    }
+
+}
+
+@media (min-width: 768px) and (orientation: landscape) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1280px) and (orientation: landscape) {}
+
+@media (min-width: 1920px) {}
+
+@media (min-width: 1920px) and (orientation: landscape) {}
