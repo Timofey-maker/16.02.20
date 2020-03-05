@@ -24,6 +24,78 @@
     height: 271px;
     width: 282px;
     overflow: hidden;
+    position: relative;
+}
+.blockImgItem {
+    position: absolute;
+    height: 550px;
+    width: 400px;
+    top: -80px;
+    
+}
+
+.blockImgItem2 {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: -150px;
+
+}
+
+.blockImgItem3 {
+    position: absolute;
+    width: 100px;
+    width: 500px;
+    bottom: -230px;
+    left: -70px;
+}
+
+/* .blockImgItem4 {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: -60px;
+    top: -70px;
+} */
+
+.blockImgItem4 {
+    height: 400px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    left: -20px;
+    top: -30px;
+    
+}
+
+.blockImgItem5 {
+    height: 269px;
+    width: 350px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    left: -10px;
+}
+
+.blockImgItem6 {
+    height: 400px;
+    width: 330px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    left: -5px;
+    top: -30px;
+}
+
+.blockImgItem7 {
+    height: 400px;
+    width: 330px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    left: -20px;
+    top: -30px;
 }
 
 @media (min-width: 768px) {
